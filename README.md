@@ -15,10 +15,10 @@ Cons:
 - The major drawback of this method is that fill-mask works for exactly 1 [MASK] token, so it's absolutely useless if I have multiple misspelt words in my sentence.
 - It overlooks the grammar in the sentence and is only bothered about the spelling. For example, if I have a sentence, wot gift did he apple her; the code finds no error in this sentence cause these are all valid words
 
-Let me try with training a model! Will be back soon
+
  
 
 
 ### Way forward
-I'm working on using pretrained embeddings to address this issue.
+Let me try with training a model with pretrained embeddings. Will be back soon. ;)
 
