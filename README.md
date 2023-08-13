@@ -20,5 +20,5 @@ Cons:
 
 
 ### Way forward
-Let me try with training a model with pretrained embeddings. Will be back soon. ;)
+Let me try with training a model with pretrained embeddings. Will be back soon. 😉
 
