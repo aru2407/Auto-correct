@@ -6,6 +6,9 @@ I'm working on the autocorrect feature and tried a [notebook](https://github.com
 While they give me moderately accurate results, I see the major cons:
 - Jaccard distance works relatively better than levenshtein as it computes on ngrams for each word.
 - Results are not very accurate on the basis of context in both cases. For example, if my correct sentence is "I ate an apple", with a misspelt version of the word 'apple', the predictions by the code is 'ape', 'aple', 'apes' etc. which carry no meaning to the input sentence.
+   
+ 
+
 
 ### Way forward
 I'm working on using pretrained embeddings to address this issue.
