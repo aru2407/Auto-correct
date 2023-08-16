@@ -25,8 +25,5 @@ Cons:
  - It is unable to understand the grammar and allows any semantically correct word even though the word has no contribution to the meaning of the sentence.  
 
  
-
-
-### Way forward
-Let me try with training a model with pretrained embeddings. Will be back soon. 😉
-
+[4. Autopredict + Autocorrect](https://github.com/arunima2407/Auto-correct/blob/main/text-generation-autocorrect.ipynb)
+I've built this notebook modifying on a text generation task using a Transformer decoder model. It works almost similar to the previous notebook, except the part where I mask tokens. Instead, I pass this truncated text to the model and predict the next word in sequence. I try to match the predicted word with the input sentence's misspelt word and corrects the sentence. This process continues till no misspelt words are there.
