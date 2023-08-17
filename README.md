@@ -26,4 +26,4 @@ Cons:
 
  
 [4. Autopredict + Autocorrect](https://github.com/arunima2407/Auto-correct/blob/main/text-generation-autocorrect.ipynb)
-I've built this notebook modifying on a text generation task using a Transformer decoder model. It works almost similar to the previous notebook, except the part where I mask tokens. Instead, I pass this truncated text to the model and predict the next word in sequence. I try to match the predicted word with the input sentence's misspelt word and corrects the sentence. This process continues till no misspelt words are there.
+I've built this notebook modifying on a text generation task using a Transformer decoder model. It works almost similar to the previous notebook, except the part where I was masking tokens for misspelt words. Instead, I truncate text till the misspelt word and pass this truncated text as an input to the text generation model and predict the next word in sequence. I try to match the predicted word with the input sentence's misspelt word and correct the sentence. This process continues till all misspelt words are corrected.
